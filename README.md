@@ -13,6 +13,15 @@ Kwery's manifesto:
 
 [![Build Status](https://travis-ci.org/andrewoma/kwery.svg?branch=master)](https://travis-ci.org/andrewoma/kwery)
 
+#### Add to maven
+```xml
+<dependency>
+    <groupId>com.github.andrewoma.kwery</groupId>
+    <artifactId>core</artifactId>
+    <version>0.17</version>
+</dependency>
+```
+
 #### Core
 
 The [core module](core) is a fairly thin wrapper over JDBC, providing support for named parameters, logging
